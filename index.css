@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Roboto , Arial;
+
+}
+
+
+.repos-container {
+    width: 800px ;
+    background-color: aliceblue;
+    margin: 20px auto ;
+
+
+}
+
+
+.get-repos input {
+    width: 100%;
+    height: 50px;
+    color : black;
+    border-radius: 4px ;
+    border: solid 2px orange ;
+    font-family: Roboto ;
+    font-size: 20px ;
+    font-weight: 500;
+
+}
+
+.get-repos input:focus {
+   outline: 2px solid #df6158;
+}
+
+.get-repos input::placeholder {
+    color: #847575;
+    font-size: 20px;
+
+
+}
+
+.get-repos {
+    display: flex ;
+    flex-direction: row ;
+    padding : 15px ; 
+}
+
+.get-repos span {
+    background-color: orange;
+    width: 100px ;
+    text-align:center;
+    line-height: 20px ;
+    padding-top: 10px ;
+    border-radius: 3px ;
+    margin-left: 4px ;
+    height: 50px;
+    cursor: pointer;
+
+
+}
+
+.show-data {
+    margin-left: 10px ;
+    font-weight: bold ;
+}
+
+.show-data > div {
+    display: flex ;
+    flex: row ;
+    height: 50px ;
+    padding : 5px  ;
+    width: 300px ;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: #e1dcdc;
+    margin-bottom: 5px ;
+
+}
+
+.show-data > div a {
+    background-color: orange;
+    text-decoration: none;
+
+
+}
